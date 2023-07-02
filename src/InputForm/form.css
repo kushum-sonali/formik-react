@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .title{
+      font-family: 'Times New Roman';
+      font-weight:800;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative!important;
+  }
+body{
+    /* background: radial-gradient(circle, rgba(56,58,63,1) 0%, rgba(34,36,37,1) 100%); */
+    background: rgb(56,58,63);
+background: radial-gradient(circle, rgba(56,58,63,0.9417016806722689) 0%, rgba(34,36,37,0.9697128851540616) 100%);
+    font-family: 'Times New Roman';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative!important;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 20px;
+}
+.hobbies{
+    margin-top: 20px;
+}
+.gender{
+    display: flex;
+ text-align: start;
+margin-top: 5px;
+}
